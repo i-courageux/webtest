@@ -1,0 +1,212 @@
+/*google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Rubik+Bubbles&display=swap');
+
+.font-pacifico {
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*head*/
+.beatle-image {
+    width: 100%;
+    height: 700px;
+}
+
+/*menu*/
+.menu-layer {
+    background-color: black;
+}
+
+.menu-element {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.menu-element-title:hover {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+/*about beatle*/
+.about-layer {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.about-beatle {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.beatle-history {
+    padding: 100px;
+}
+
+/*contact*/
+.contact-layer {
+    padding: 2% 0;
+    background-color: black;
+}
+
+.contact-detail {
+    padding: 200px;
+    color: white;
+}
+
+.contact-tour {
+    width: 100%;
+    height: 100%;
+}
+
+/*contact form*/
+#form {
+    width: 400px;
+    padding: 30px;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: white;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+/*shop*/
+.shop-layer {
+    padding: 2% 0;
+    background-color: #f7f7f7;
+}
+
+.shop-title {
+    text-align: center;
+    padding: 2%;
+}
+
+.shop-card {
+    width: 100%;
+}
+
+.image-merchandise {
+    width: 100%;
+    height: 100%;
+}
+
+.merchandise-item {
+    text-align: center;
+}
+
+/*consert*/
+.consert-layer {
+    background-color: #f7f7f7;
+    padding-bottom: 2%;
+}
+
+.consert-title {
+    text-align: center;
+    padding: 2%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 700px;
+}
+
+/*follow*/
+.follow-layer {
+    padding: 2%;
+    background-color: black;
+}
+
+.follow-text {
+    text-align: center;
+    padding: 90px;
+    color: white;
+}
+
+.iframe-video {
+    width: 100%;
+    height: 100%;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.instagram:hover {
+    color: #bc2a8d;
+}
+
+.twitter:hover {
+    color: #00acee;
+}
+
+.youtube:hover {
+    color: #FF0000;
+}
+
+.social {
+    padding: 2%;
+}
+
+/*blog*/
+.blog-layer {
+    background-color: black;
+    padding: 2%;
+}
+
+.blog-border {
+    border: 2px;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+}
